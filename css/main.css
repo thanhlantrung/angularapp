@@ -2,3 +2,11 @@ body {
 	font-family: Arial;
 	letter-spacing: 1px;
 }
+
+.navbar-div {
+	margin-bottom: 60px;
+}
+
+.navbar {
+	background-color: grey;
+}

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="en">
 	<head>
 		<title>angular app</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		
 		<link rel="stylesheet" href="css/main.css">
 	</head>
-	<body> 
+	<body ng-app="myApp"> 
 
-		<div ng-include="'templates/header.html'"></div>
+		<div ng-include="'templates/header.html'" class="navbar-div"></div>
 		<div ng-view></div>
 		<div ng-include="'templates/footer.html'"></div>
 		
@@ -17,8 +17,9 @@
 
 
 
-	<script src="https://code.angularjs.org/1.6.0-rc.2/angular.min.js" rel="stylesheet"></script>
-	<script src="https://code.angularjs.org/1.6.0-rc.2/angular-route.min.js"></script>
+
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
 
 	<script src="js/main.js"></script>
 	</body>
