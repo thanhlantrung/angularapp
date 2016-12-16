@@ -8,7 +8,9 @@ app.config(['$routeProvider', function ($routeProvider) {
 .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
 //Pages
 .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
-.when("/services", {templateUrl: "partials/services.html", controller: "pageCtrl"})
+.when("/blog", {templateUrl: "partials/blog.html", controller: "pageCtrl"})
+.when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
+.when("/chess", {templateUrl: "partials/chess.html", controller: "pageCtrl"})
 
 //else 404
 .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
